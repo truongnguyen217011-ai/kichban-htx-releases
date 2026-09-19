@@ -1,0 +1,18 @@
+{
+  "version": "0.1.20",
+  "publishedAt": "2026-09-19T08:54:24.073Z",
+  "notes": "Ổn định viết hàng loạt và Trend; đồng bộ hồ sơ DNA; tự phục hồi prompt hình/Veo bị cắt JSON từ checkpoint; khôi phục nút dừng ở bước chờ duyệt; tự tách workflow cũ khi bắt đầu lượt viết mới.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.20/KICHBAN-HTX-Setup-0.1.20-x64.exe",
+  "sha256": "932fd491947b5d3ee719a303526d3ad27fbcc95398386cb1b0bd5f99a12b40c5",
+  "minimumDatabaseSchema": 14,
+  "maximumDatabaseSchema": 15,
+  "minimumWorkflowSchema": 3,
+  "installerArgs": [
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NORESTART",
+    "/SP-",
+    "/FORCECLOSEAPPLICATIONS"
+  ],
+  "signature": "TeegHKgri3JCu5rNYNiLdPBcGmH+27r8z0QyGaTXCJtlbu5nDzlBPkRRn1O5hfCeQsGA3UxvlLHgU/sqgJWbDQ=="
+}
