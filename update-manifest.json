@@ -1,9 +1,9 @@
 {
-  "version": "0.1.21",
-  "publishedAt": "2026-09-21T03:20:18.898Z",
+  "version": "0.1.22",
+  "publishedAt": "2026-09-21T04:22:48.913Z",
   "notes": "Xuất thêm file CONTENT cho từng tập; lưu ảnh tham chiếu nhân vật theo DNA kênh; tự tạo thư mục con cùng tên tập chứa ảnh tham chiếu; prompt hình ảnh tự khóa nhận dạng nhân vật theo đúng kênh.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.21/KICHBAN-HTX-Setup-0.1.21-x64.exe",
-  "sha256": "69de0d01ff91761a6f1a8f7603ca2e9970ae36fa1f894ae780178a5779b3193c",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.22/KICHBAN-HTX-Setup-0.1.22-x64.exe",
+  "sha256": "988cdb5e394d03deac734d567311fc2f7e9bcf689cb9cedfe45068d81c2357d8",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "F2JB04qr7MdYMgQbfu4tLxTlJqGbOUSpD+97B42kEUgmxhoi78Q96Uwfpz2PcM1SEBJX29SahRTs+7iMYuJ5Dw=="
+  "signature": "OwjvcNELDGXwiOLdiwhv8BppkfsShDyl3eaoG0dUbnOdZpDqh7Ab2h5kwIkXNpz/BbqgwyEk1gztcqhIHLDQAA=="
 }
