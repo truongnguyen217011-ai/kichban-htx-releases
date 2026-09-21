@@ -1,9 +1,9 @@
 {
-  "version": "0.1.23",
-  "publishedAt": "2026-09-21T07:33:20.254Z",
-  "notes": "Tự sửa riêng gói SEO thiếu trường tối đa 3 lượt mà không viết lại content; thêm nút chạy lại đúng bước lỗi cho Viết, Voice, Prompt và hàng loạt ở cả Tác vụ và Thành phẩm; lỗi đã xác nhận không hiện lại.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.23/KICHBAN-HTX-Setup-0.1.23-x64.exe",
-  "sha256": "7fe903e390655af27846295d7268de89f38e07881194d7640a25055c741570e5",
+  "version": "0.1.24",
+  "publishedAt": "2026-09-21T09:36:26.897Z",
+  "notes": "Prompt hình ảnh được tách theo từng câu thoại; câu quá dài tự chia tại dấu ngắt hoặc theo giới hạn 8 giây, giữ đúng thứ tự và chia timestamp theo số từ để prompt ngắn, sát voice hơn.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.24/KICHBAN-HTX-Setup-0.1.24-x64.exe",
+  "sha256": "df54f717175e1720129eb5c601b8df878712fefb9e1d32d74c40ad34e166d310",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "na/B2F9X8w2vsxHfO7CID+JLTHbXhJf/oT32YuxDjG3pn+vE7S86skiWGnlQgyQcibFZPVOsCRxWo9ZdLWvrCA=="
+  "signature": "iMq1Mhl8CUSJxLoj8NnprrwRk18k6GSkME3Uu9rEUnqbstb7jyCYQn1w+TEgc+NpGtQSohlaW29gKld1CU1mCA=="
 }
