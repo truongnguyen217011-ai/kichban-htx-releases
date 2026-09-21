@@ -1,9 +1,9 @@
 {
-  "version": "0.1.22",
-  "publishedAt": "2026-09-21T04:22:48.913Z",
-  "notes": "Xuất thêm file CONTENT cho từng tập; lưu ảnh tham chiếu nhân vật theo DNA kênh; tự tạo thư mục con cùng tên tập chứa ảnh tham chiếu; prompt hình ảnh tự khóa nhận dạng nhân vật theo đúng kênh.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.22/KICHBAN-HTX-Setup-0.1.22-x64.exe",
-  "sha256": "988cdb5e394d03deac734d567311fc2f7e9bcf689cb9cedfe45068d81c2357d8",
+  "version": "0.1.23",
+  "publishedAt": "2026-09-21T07:33:20.254Z",
+  "notes": "Tự sửa riêng gói SEO thiếu trường tối đa 3 lượt mà không viết lại content; thêm nút chạy lại đúng bước lỗi cho Viết, Voice, Prompt và hàng loạt ở cả Tác vụ và Thành phẩm; lỗi đã xác nhận không hiện lại.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.23/KICHBAN-HTX-Setup-0.1.23-x64.exe",
+  "sha256": "7fe903e390655af27846295d7268de89f38e07881194d7640a25055c741570e5",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "OwjvcNELDGXwiOLdiwhv8BppkfsShDyl3eaoG0dUbnOdZpDqh7Ab2h5kwIkXNpz/BbqgwyEk1gztcqhIHLDQAA=="
+  "signature": "na/B2F9X8w2vsxHfO7CID+JLTHbXhJf/oT32YuxDjG3pn+vE7S86skiWGnlQgyQcibFZPVOsCRxWo9ZdLWvrCA=="
 }
