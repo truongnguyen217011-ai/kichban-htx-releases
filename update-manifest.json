@@ -1,9 +1,9 @@
 {
-  "version": "0.1.24",
-  "publishedAt": "2026-09-21T09:36:26.897Z",
-  "notes": "Prompt hình ảnh được tách theo từng câu thoại; câu quá dài tự chia tại dấu ngắt hoặc theo giới hạn 8 giây, giữ đúng thứ tự và chia timestamp theo số từ để prompt ngắn, sát voice hơn.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.24/KICHBAN-HTX-Setup-0.1.24-x64.exe",
-  "sha256": "df54f717175e1720129eb5c601b8df878712fefb9e1d32d74c40ad34e166d310",
+  "version": "0.1.25",
+  "publishedAt": "2026-09-22T09:05:42.400Z",
+  "notes": "Hoàn thiện luồng viết đến thành phẩm: QA/SEO resume đúng checkpoint, chống hook lặp và văn phong hàn lâm, khóa lời hứa title-thumbnail-hook, voice/SRT tải tiếp an toàn, prompt ảnh tự phục hồi đúng Character Bible, trạng thái tác vụ không mất khi chuyển trang, và prompt thumbnail có chữ cùng nhận diện DNA kênh.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.25/KICHBAN-HTX-Setup-0.1.25-x64.exe",
+  "sha256": "5bdb0934771e89db0ba01fdc73b11cda64be6a1d544f9bb9608d1d04889ea05a",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "iMq1Mhl8CUSJxLoj8NnprrwRk18k6GSkME3Uu9rEUnqbstb7jyCYQn1w+TEgc+NpGtQSohlaW29gKld1CU1mCA=="
+  "signature": "IswKZsPtOMcZVbtwRRhLUwSIdiz2sJ5ym6JqJnEA+oBVSAkXCOuvuptdZSLv+BdhDCtHRks94zwr5JRBF0WJCA=="
 }
