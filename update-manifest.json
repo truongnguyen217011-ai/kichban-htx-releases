@@ -1,9 +1,9 @@
 {
-  "version": "0.1.26",
-  "publishedAt": "2026-09-23T03:34:33.065Z",
-  "notes": "Bản 23/9: hoàn thiện luồng viết đến thành phẩm, chống hook lặp và bài thiếu độ dài, phục hồi prompt ảnh/Veo đúng checkpoint, giữ trạng thái tác vụ khi chuyển trang, và tạo prompt thumbnail động theo đúng DNA thị giác của từng kênh (người que, người thật, hoạt hình hoặc 3D), gồm các chỉnh sửa DNA do người dùng lưu.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.26/KICHBAN-HTX-Setup-0.1.26-x64.exe",
-  "sha256": "1cb9cf320a9f50af3b9db2546ca9d92c94ca7a5c93752d743c523ddb2ff9eaff",
+  "version": "0.1.27",
+  "publishedAt": "2026-09-23T06:39:28.277Z",
+  "notes": "Bản 0.1.27 hoàn thiện kiểm soát chất lượng Content/Hook/SEO và prompt hình ảnh theo DNA, áp dụng chỉ dẫn huấn luyện mới vào Content, Hook, SEO, ảnh, thumbnail và Veo; làm mới cache/UI để tác vụ mới nhận DNA vừa huấn luyện; tăng kiểm tra checkpoint, độ dài, trùng lặp và tính nhất quán nhân vật/phong cách. Bản này cũng bảo vệ dữ liệu SQLite bằng phát hiện hỏng trước khi ghi, khóa một runtime, snapshot có SHA-256 và backup/restore đầy đủ dữ liệu nghiệp vụ.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.27/KICHBAN-HTX-Setup-0.1.27-x64.exe",
+  "sha256": "34b75c3a0ce4f6e79a5295495d44b7f98ffc996aa6738dd74c0a17440e9b5ad4",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "g8xm2ew4rstR2OboQQmoDdQanvhOpwk9D4I8y+sUyH/Ws4pp2mcq3nhDOc61frWFDgjE3WgLX80IO7XEuRhzAQ=="
+  "signature": "+ZCfJO5O3BjxGevmnM8iJ6vO/U1lUryL13OQYCQtO3sYd5Adcw2MZaOiEd2echsiT3S04n6cRYZBJkiwb6jRCA=="
 }
