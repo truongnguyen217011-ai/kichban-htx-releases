@@ -1,9 +1,9 @@
 {
-  "version": "0.1.25",
-  "publishedAt": "2026-09-22T09:05:42.400Z",
-  "notes": "Hoàn thiện luồng viết đến thành phẩm: QA/SEO resume đúng checkpoint, chống hook lặp và văn phong hàn lâm, khóa lời hứa title-thumbnail-hook, voice/SRT tải tiếp an toàn, prompt ảnh tự phục hồi đúng Character Bible, trạng thái tác vụ không mất khi chuyển trang, và prompt thumbnail có chữ cùng nhận diện DNA kênh.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.25/KICHBAN-HTX-Setup-0.1.25-x64.exe",
-  "sha256": "5bdb0934771e89db0ba01fdc73b11cda64be6a1d544f9bb9608d1d04889ea05a",
+  "version": "0.1.26",
+  "publishedAt": "2026-09-23T03:34:33.065Z",
+  "notes": "Bản 23/9: hoàn thiện luồng viết đến thành phẩm, chống hook lặp và bài thiếu độ dài, phục hồi prompt ảnh/Veo đúng checkpoint, giữ trạng thái tác vụ khi chuyển trang, và tạo prompt thumbnail động theo đúng DNA thị giác của từng kênh (người que, người thật, hoạt hình hoặc 3D), gồm các chỉnh sửa DNA do người dùng lưu.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.26/KICHBAN-HTX-Setup-0.1.26-x64.exe",
+  "sha256": "1cb9cf320a9f50af3b9db2546ca9d92c94ca7a5c93752d743c523ddb2ff9eaff",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "IswKZsPtOMcZVbtwRRhLUwSIdiz2sJ5ym6JqJnEA+oBVSAkXCOuvuptdZSLv+BdhDCtHRks94zwr5JRBF0WJCA=="
+  "signature": "g8xm2ew4rstR2OboQQmoDdQanvhOpwk9D4I8y+sUyH/Ws4pp2mcq3nhDOc61frWFDgjE3WgLX80IO7XEuRhzAQ=="
 }
