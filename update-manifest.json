@@ -1,9 +1,9 @@
 {
-  "version": "0.1.27",
-  "publishedAt": "2026-09-23T06:39:28.277Z",
-  "notes": "Bản 0.1.27 hoàn thiện kiểm soát chất lượng Content/Hook/SEO và prompt hình ảnh theo DNA, áp dụng chỉ dẫn huấn luyện mới vào Content, Hook, SEO, ảnh, thumbnail và Veo; làm mới cache/UI để tác vụ mới nhận DNA vừa huấn luyện; tăng kiểm tra checkpoint, độ dài, trùng lặp và tính nhất quán nhân vật/phong cách. Bản này cũng bảo vệ dữ liệu SQLite bằng phát hiện hỏng trước khi ghi, khóa một runtime, snapshot có SHA-256 và backup/restore đầy đủ dữ liệu nghiệp vụ.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.27/KICHBAN-HTX-Setup-0.1.27-x64.exe",
-  "sha256": "34b75c3a0ce4f6e79a5295495d44b7f98ffc996aa6738dd74c0a17440e9b5ad4",
+  "version": "0.1.33",
+  "publishedAt": "2026-09-24T10:18:01.564Z",
+  "notes": "Bản 0.1.33 hợp nhất toàn bộ sửa đổi từ 23-24/09: ổn định luồng Viết đơn/Hàng loạt/Trend, retry QA chỉ sửa phần lỗi, dừng tác vụ không treo, khôi phục JSON AI, kiểm soát hook và độ dài; tạo prompt ảnh cứu đúng scene còn thiếu, không chạy lại scene đạt, bám DNA kênh và khóa nhất quán nhận dạng nhân vật chính trong khi quần áo/bối cảnh tự đổi theo từng cảnh; lưu và gọi hồ sơ kênh ổn định, đầu ra tự theo kênh; giữ toàn bộ cải tiến của 0.1.32.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.33/KICHBAN-HTX-Setup-0.1.33-x64.exe",
+  "sha256": "5d851821686a39c16f05d1e6342f8b720ba9275a204cd04ebf9e8bdb214f7bfb",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "+ZCfJO5O3BjxGevmnM8iJ6vO/U1lUryL13OQYCQtO3sYd5Adcw2MZaOiEd2echsiT3S04n6cRYZBJkiwb6jRCA=="
+  "signature": "Hyuxaw7C3wtzpJUGHrJ3Hf4Dlx6nNlIjXXesjuCH+wn0SfASB4iGuXAFP1sKGXrhlIlkcg8VCw20Tfi/kv09CA=="
 }
