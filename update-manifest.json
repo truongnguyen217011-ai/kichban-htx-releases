@@ -1,9 +1,9 @@
 {
-  "version": "0.1.33",
-  "publishedAt": "2026-09-24T10:18:01.564Z",
-  "notes": "Bản 0.1.33 hợp nhất toàn bộ sửa đổi từ 23-24/09: ổn định luồng Viết đơn/Hàng loạt/Trend, retry QA chỉ sửa phần lỗi, dừng tác vụ không treo, khôi phục JSON AI, kiểm soát hook và độ dài; tạo prompt ảnh cứu đúng scene còn thiếu, không chạy lại scene đạt, bám DNA kênh và khóa nhất quán nhận dạng nhân vật chính trong khi quần áo/bối cảnh tự đổi theo từng cảnh; lưu và gọi hồ sơ kênh ổn định, đầu ra tự theo kênh; giữ toàn bộ cải tiến của 0.1.32.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.33/KICHBAN-HTX-Setup-0.1.33-x64.exe",
-  "sha256": "5d851821686a39c16f05d1e6342f8b720ba9275a204cd04ebf9e8bdb214f7bfb",
+  "version": "0.1.34",
+  "publishedAt": "2026-09-25T02:15:55.604Z",
+  "notes": "Bản 0.1.34 bổ sung file CONTENT_SRT.txt: mỗi cue SRT AI33 thành đúng một dòng nội dung, không số thứ tự, không timestamp và không dòng trống thừa. Đồng thời sửa launcher khi chạy production để tự đồng bộ tài nguyên static/public, tránh giao diện HTML thô. Kế thừa toàn bộ cải tiến của 0.1.33.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.34/KICHBAN-HTX-Setup-0.1.34-x64.exe",
+  "sha256": "f06f9ab8dbe606a0cadb37e2290b0d7c63b15d09b2e859ae586f5a114e2ddbe5",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "Hyuxaw7C3wtzpJUGHrJ3Hf4Dlx6nNlIjXXesjuCH+wn0SfASB4iGuXAFP1sKGXrhlIlkcg8VCw20Tfi/kv09CA=="
+  "signature": "fb2XND64G77zc84DslZDCTdq3WNDIlaJqHX/jhZjjySuduE6ICYFULPJm1uzf857Jv128z7zukxM6erQFKm7CA=="
 }
