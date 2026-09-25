@@ -1,9 +1,9 @@
 {
-  "version": "0.1.34",
-  "publishedAt": "2026-09-25T02:15:55.604Z",
-  "notes": "Bản 0.1.34 bổ sung file CONTENT_SRT.txt: mỗi cue SRT AI33 thành đúng một dòng nội dung, không số thứ tự, không timestamp và không dòng trống thừa. Đồng thời sửa launcher khi chạy production để tự đồng bộ tài nguyên static/public, tránh giao diện HTML thô. Kế thừa toàn bộ cải tiến của 0.1.33.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.34/KICHBAN-HTX-Setup-0.1.34-x64.exe",
-  "sha256": "f06f9ab8dbe606a0cadb37e2290b0d7c63b15d09b2e859ae586f5a114e2ddbe5",
+  "version": "0.1.36",
+  "publishedAt": "2026-09-25T15:15:14.051Z",
+  "notes": "Bản 0.1.36 hoàn thiện các sửa lỗi của 0.1.35 sau 11 lần chạy thật (bài 9 phút) cho cả ba luồng đơn, hàng loạt và trend. Vòng sửa QA đi theo từng bậc (sửa đúng câu → viết lại chương → viết lại cách khác), bài 80–84 điểm được cho qua kèm cảnh báo; khi Claude hết hạn mức tự chuyển sang model chấm dự phòng và ghi rõ. Tiêu đề bạn nhập ở hàng loạt được giữ đúng (dịch sát nghĩa nếu khác ngôn ngữ kênh) và nội dung phải trả lời đúng tiêu đề. Gói SEO tự bổ sung phần thiếu. Prompt ảnh/Veo cho bài 9 phút (~190 cảnh) chạy song song, xong trong khoảng 2 phút, chỉ hỏi lại đúng cảnh lỗi và báo chính xác cảnh thiếu. Dữ liệu cố định ở D:\\HTX\\data; gỡ cài đặt luôn giữ dữ liệu.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.36/KICHBAN-HTX-Setup-0.1.36-x64.exe",
+  "sha256": "e40b3f4d29ecea3e04a34ae55854e9bae679618213f35a72d050e43ee2aef2d1",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "fb2XND64G77zc84DslZDCTdq3WNDIlaJqHX/jhZjjySuduE6ICYFULPJm1uzf857Jv128z7zukxM6erQFKm7CA=="
+  "signature": "JE3W6I8j17Ey72yE+Vc/k96EgVTGj47fyua9zVqzI48nsu27F/UZGXkNvDAR+MROj7dVBrg7rNQf62Q1dYxfCA=="
 }
