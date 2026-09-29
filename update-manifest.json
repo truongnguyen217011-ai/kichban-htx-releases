@@ -1,9 +1,9 @@
 {
-  "version": "0.1.36",
-  "publishedAt": "2026-09-25T15:15:14.051Z",
-  "notes": "Bản 0.1.36 hoàn thiện các sửa lỗi của 0.1.35 sau 11 lần chạy thật (bài 9 phút) cho cả ba luồng đơn, hàng loạt và trend. Vòng sửa QA đi theo từng bậc (sửa đúng câu → viết lại chương → viết lại cách khác), bài 80–84 điểm được cho qua kèm cảnh báo; khi Claude hết hạn mức tự chuyển sang model chấm dự phòng và ghi rõ. Tiêu đề bạn nhập ở hàng loạt được giữ đúng (dịch sát nghĩa nếu khác ngôn ngữ kênh) và nội dung phải trả lời đúng tiêu đề. Gói SEO tự bổ sung phần thiếu. Prompt ảnh/Veo cho bài 9 phút (~190 cảnh) chạy song song, xong trong khoảng 2 phút, chỉ hỏi lại đúng cảnh lỗi và báo chính xác cảnh thiếu. Dữ liệu cố định ở D:\\HTX\\data; gỡ cài đặt luôn giữ dữ liệu.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.36/KICHBAN-HTX-Setup-0.1.36-x64.exe",
-  "sha256": "e40b3f4d29ecea3e04a34ae55854e9bae679618213f35a72d050e43ee2aef2d1",
+  "version": "0.1.37",
+  "publishedAt": "2026-09-29T02:45:31.059Z",
+  "notes": "Bản 0.1.37 thêm khóa DNA nhân vật theo từng kênh. Tải ảnh tham chiếu nhân vật vào hồ sơ kênh (bước 3): AI đọc ảnh một lần và viết mô tả nhận dạng (dáng, mặt, tóc, màu, nét vẽ; không gồm trang phục), bạn sửa rồi bấm \"Duyệt & khóa\". Ảnh tải lên đầu tiên là nhân vật chính (CHAR_01). Mọi tập của kênh dùng nguyên văn mô tả đã duyệt trong prompt ảnh, Veo và thumbnail; ảnh tham chiếu chỉ gắn vào cảnh có nhân vật đó. Có thể sửa và duyệt lại bất cứ lúc nào. Ảnh chưa duyệt sẽ chưa được dùng và app hiện cảnh báo. Kênh đã có ảnh tham chiếu từ trước cần vào hồ sơ kênh bấm \"Duyệt & khóa\" một lần.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.37/KICHBAN-HTX-Setup-0.1.37-x64.exe",
+  "sha256": "6198a290f0d303f5add71f6e60ed82d5e3ff4bc3a6bdb4de89bcb69ea827dbba",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "JE3W6I8j17Ey72yE+Vc/k96EgVTGj47fyua9zVqzI48nsu27F/UZGXkNvDAR+MROj7dVBrg7rNQf62Q1dYxfCA=="
+  "signature": "+nZb6uWP8C35zvmRsXbAM/eTCvNsu604GVgN+zUJL2HeI81UDw974LWCsJeqCLbW6cf8Mp9wAy6MW1sZMLRMAA=="
 }
