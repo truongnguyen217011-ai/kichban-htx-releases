@@ -1,9 +1,9 @@
 {
-  "version": "0.1.37",
-  "publishedAt": "2026-09-29T02:45:31.059Z",
-  "notes": "Bản 0.1.37 thêm khóa DNA nhân vật theo từng kênh. Tải ảnh tham chiếu nhân vật vào hồ sơ kênh (bước 3): AI đọc ảnh một lần và viết mô tả nhận dạng (dáng, mặt, tóc, màu, nét vẽ; không gồm trang phục), bạn sửa rồi bấm \"Duyệt & khóa\". Ảnh tải lên đầu tiên là nhân vật chính (CHAR_01). Mọi tập của kênh dùng nguyên văn mô tả đã duyệt trong prompt ảnh, Veo và thumbnail; ảnh tham chiếu chỉ gắn vào cảnh có nhân vật đó. Có thể sửa và duyệt lại bất cứ lúc nào. Ảnh chưa duyệt sẽ chưa được dùng và app hiện cảnh báo. Kênh đã có ảnh tham chiếu từ trước cần vào hồ sơ kênh bấm \"Duyệt & khóa\" một lần.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.37/KICHBAN-HTX-Setup-0.1.37-x64.exe",
-  "sha256": "6198a290f0d303f5add71f6e60ed82d5e3ff4bc3a6bdb4de89bcb69ea827dbba",
+  "version": "0.1.38",
+  "publishedAt": "2026-09-29T03:22:14.029Z",
+  "notes": "Bản 0.1.38 thêm chọn và xóa tác vụ ở trang Tác vụ (cả ba tab Đang chạy, Có lỗi, Tất cả): ô chọn từng tác vụ, \"Chọn tất cả\" trong tab và nút \"Xóa đã chọn\". Tác vụ đang chạy được dừng trước rồi mới xóa; tác vụ con và workflow liên quan được xóa theo; file thành phẩm trên ổ được giữ nguyên; app tự sao lưu dữ liệu trước mỗi lần xóa.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.38/KICHBAN-HTX-Setup-0.1.38-x64.exe",
+  "sha256": "d9608f414f5e84de946f522dfb130ceb758be0327fc195c15f718adbe8ff283a",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "+nZb6uWP8C35zvmRsXbAM/eTCvNsu604GVgN+zUJL2HeI81UDw974LWCsJeqCLbW6cf8Mp9wAy6MW1sZMLRMAA=="
+  "signature": "0uLwL4r2OVNnuoqv91ognnElqJjfcBurnjRUyvB3RSBX2RJ8HfOmJNWNkCaffkwNNn72PKWPoYzMk/DFDxauCg=="
 }

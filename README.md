@@ -2,7 +2,7 @@
 
 Kho công khai này chỉ chứa bộ cài Windows, mã kiểm tra SHA-256 và manifest cập nhật đã ký số. Mã nguồn của ứng dụng không được phát hành tại đây.
 
-Phiên bản mới nhất: **0.1.37**.
+Phiên bản mới nhất: **0.1.38**.
 
 Từ 0.1.26, ứng dụng có khay hệ thống Windows thật và tự kiểm tra cập nhật định kỳ khi đang chạy. Bản 0.1.27 hoàn thiện Content/Hook/SEO, prompt ảnh/thumbnail/Veo theo DNA và chỉ dẫn huấn luyện mới; làm mới cache/UI cho tác vụ mới, đồng thời bổ sung lớp bảo vệ SQLite: phát hiện hỏng trước ghi, khóa một runtime, snapshot có checksum/xác minh và backup/restore đầy đủ dữ liệu nghiệp vụ.
 
@@ -15,3 +15,5 @@ Từ phiên bản 0.1.3, ứng dụng tự kiểm tra chữ ký, tải và cài 
 Bản 0.1.36 sửa tận gốc các lỗi lặp lại: dữ liệu cố định ở D:\HTX\data và tự chuyển từ bản cũ ở lần mở đầu; kịch bản do Claude chấm theo tiêu chí có trích dẫn (Gemini viết), giữ đúng tiêu đề bạn nhập ở hàng loạt; SEO tự bổ sung phần thiếu; prompt ảnh/Veo cho bài 9 phút chạy song song trong khoảng 2 phút; AI33 chỉ tạo một task trả phí mỗi voice; bộ cài tự đóng app đang chạy và luôn giữ dữ liệu khi gỡ.
 
 Bản 0.1.37 thêm khóa DNA nhân vật theo từng kênh: tải ảnh tham chiếu vào hồ sơ kênh, AI đọc ảnh một lần, bạn sửa và bấm "Duyệt & khóa"; mọi tập dùng nguyên văn mô tả đã duyệt trong prompt ảnh, Veo và thumbnail. Kênh đã có ảnh tham chiếu từ trước cần bấm "Duyệt & khóa" một lần.
+
+Bản 0.1.38 thêm chọn và xóa tác vụ ở trang Tác vụ (ô chọn, "Chọn tất cả", "Xóa đã chọn"); tác vụ đang chạy được dừng trước, file thành phẩm trên ổ được giữ nguyên và app tự sao lưu dữ liệu trước khi xóa.
