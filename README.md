@@ -2,7 +2,7 @@
 
 Kho công khai này chỉ chứa bộ cài Windows, mã kiểm tra SHA-256 và manifest cập nhật đã ký số. Mã nguồn của ứng dụng không được phát hành tại đây.
 
-Phiên bản mới nhất: **0.1.40**.
+Phiên bản mới nhất: **0.1.41**.
 
 Từ 0.1.26, ứng dụng có khay hệ thống Windows thật và tự kiểm tra cập nhật định kỳ khi đang chạy. Bản 0.1.27 hoàn thiện Content/Hook/SEO, prompt ảnh/thumbnail/Veo theo DNA và chỉ dẫn huấn luyện mới; làm mới cache/UI cho tác vụ mới, đồng thời bổ sung lớp bảo vệ SQLite: phát hiện hỏng trước ghi, khóa một runtime, snapshot có checksum/xác minh và backup/restore đầy đủ dữ liệu nghiệp vụ.
 
@@ -19,5 +19,7 @@ Bản 0.1.37 thêm khóa DNA nhân vật theo từng kênh: tải ảnh tham chi
 Bản 0.1.38 thêm chọn và xóa tác vụ ở trang Tác vụ (ô chọn, "Chọn tất cả", "Xóa đã chọn"); tác vụ đang chạy được dừng trước, file thành phẩm trên ổ được giữ nguyên và app tự sao lưu dữ liệu trước khi xóa.
 
 Bản 0.1.39: ảnh tham chiếu nhân vật chính quyết định **loại hình + nét vẽ** cho mọi nhân vật (prompt ảnh, Veo, thumbnail), đè phong cách của kênh lead — khóa ảnh người que thì ra người que. Kênh phải khóa ảnh nhân vật chính (Hồ sơ kênh → bước 3 → chọn loại hình, nét vẽ → "Duyệt & khóa") mới tạo được prompt ảnh; kênh đã khóa ở 0.1.37–0.1.38 cần duyệt lại một lần. Mỗi kênh có thể đặt thư mục gốc đầu ra riêng; đổi kênh là đường dẫn đầu ra đổi theo.
+
+Bản 0.1.41: hồ sơ kênh đã lưu gì thì dùng đúng cái đó — lưu/duyệt DNA hay phân tích lại kênh lead không còn đè số phút, WPM, ngách, ngôn ngữ đã lưu bằng gợi ý của DNA. Hồ sơ từng bị đè: nhập lại số phút/WPM và bấm "Lưu hồ sơ" một lần.
 
 Bản 0.1.40: viết kịch bản không còn kẹt ở QA — chương đạt từ 80 điểm (75–79 hoàn tất kèm cảnh báo "QA gần đạt"), tool tự đưa bài về đúng độ dài trước khi chấm, và sửa lỗi chấm "mạch văn" từng chặn nhầm bài. Kiểm số từ, hook, SEO, ngôn ngữ vẫn giữ chặt.
