@@ -1,9 +1,9 @@
 {
-  "version": "0.1.39",
-  "publishedAt": "2026-09-29T18:40:23.781Z",
-  "notes": "Bản 0.1.39 sửa hai lỗi:\n\n1. **Ảnh tham chiếu quyết định phong cách nhân vật.** Ở Hồ sơ kênh bước 3, AI đọc ảnh nhân vật chính (CHAR_01) ra **loại hình** (người que / hoạt hình / người thật / 3D / khác), **nét vẽ** và mô tả nhận dạng; bạn sửa rồi \"Duyệt & khóa\". Loại hình + nét vẽ đã khóa áp cho mọi nhân vật trong prompt ảnh, Veo và thumbnail (thumbnail của mọi tập trong kênh dùng cùng một khối khóa phong cách; nội dung thumbnail do AI viết cho từng tập được giữ nguyên, và prompt thumbnail không còn dài thêm mỗi lần mở/tải lại), đè DNA kênh lead — không còn chuyện khóa ảnh người que mà prompt ra hoạt hình thường. Bối cảnh, màu và bố cục vẫn theo DNA kênh lead. Nếu ảnh khác loại hình DNA lead, hồ sơ kênh hiện cảnh báo. Đã bỏ mô tả nhân vật viết sẵn trong tool: **kênh phải khóa ảnh nhân vật chính mới tạo được prompt ảnh** (kịch bản, MP3, SRT vẫn tạo bình thường; bước prompt ảnh báo rõ cần vào bước 3 để khóa). Kênh đã khóa ảnh ở bản 0.1.37–0.1.38 cần chọn loại hình + nét vẽ rồi bấm \"Duyệt & khóa\" lại một lần.\n2. **Thư mục đầu ra theo từng kênh.** Mỗi hồ sơ kênh có thể đặt thư mục gốc riêng (ví dụ kênh A → D:\\HTX, kênh B → E:\\KenhB); đổi kênh ở trang Hồ sơ kênh thì ô thư mục và dòng \"Đầu ra của kênh đang chọn\" đổi theo. Bài mới lưu vào `<gốc kênh>\\<Tên bài>`; kênh chưa đặt vẫn dùng thư mục xuất chung như cũ. Bài cũ giữ nguyên chỗ.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.39/KICHBAN-HTX-Setup-0.1.39-x64.exe",
-  "sha256": "d794ba452424774939fbb9b40d3fe13b7cba455b60fd7f031ba1acdd342d1a78",
+  "version": "0.1.40",
+  "publishedAt": "2026-09-30T05:22:05.053Z",
+  "notes": "Bản 0.1.40 giúp viết kịch bản không còn kẹt ở bước QA:\n\n1. **Hạ ngưỡng QA:** chương đạt từ **80** điểm (trước 85). Sau khi hết vòng sửa, chương yếu nhất **75–79** và không có lỗi kiểm bằng code thì bài vẫn hoàn tất, kèm cảnh báo \"QA gần đạt\" để bạn nghe lại đoạn đó. Dưới 75 mới dừng. Dàn ý dùng cùng ngưỡng. Kiểm số từ, hook, SEO, ngôn ngữ vẫn giữ chặt như cũ.\n2. **Hết kẹt vì độ dài:** bài vào (hoặc chạy tiếp) bước QA mà dài/ngắn quá khoảng cho phép thì tool tự đưa về đúng độ dài trước khi chấm; trong vòng sửa, bản sửa được nhận khi không làm độ dài tệ hơn (trước đây mọi bản sửa bị loại \"tổng … từ ngoài …\" nên không bao giờ qua được).\n3. **Sửa lỗi chấm \"mạch văn\" (flow):** giám khảo so sánh câu đầu chương với câu cuối chương trước từng bị coi là \"trích dẫn bịa\" và chặn bài; nay được chấp nhận khi từng câu trích có nguyên văn thật, trích bịa vẫn bị bắt.\n\nBài đang dừng ở bước QA có thể bấm chạy tiếp; điểm 80–84 đã chấm trước đó được tính là đạt, không chấm lại.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.40/KICHBAN-HTX-Setup-0.1.40-x64.exe",
+  "sha256": "b21aabb07b7b128d8cc2b7730a0c20022c8c180d21a8cadc3be991b4650c2331",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "kZtglHgjIHFqG2Wi/+MZftFFC0h/4jd+Ap8ImJGS+UI2OaK5d6QfAsEDgvxAPRivPC3l6ccgFymCWlirPwF7AA=="
+  "signature": "l3pMLhzaQESCHhvcjRiEgRi2hyr1M+J37EyymlZKUPELJRVFN8r87ffhjrqPOjIs0PgT6/nLw4+mLR5TWUQODQ=="
 }
