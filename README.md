@@ -2,7 +2,7 @@
 
 Kho công khai này chỉ chứa bộ cài Windows, mã kiểm tra SHA-256 và manifest cập nhật đã ký số. Mã nguồn của ứng dụng không được phát hành tại đây.
 
-Phiên bản mới nhất: **0.1.42**.
+Phiên bản mới nhất: **0.1.43**.
 
 Từ 0.1.26, ứng dụng có khay hệ thống Windows thật và tự kiểm tra cập nhật định kỳ khi đang chạy. Bản 0.1.27 hoàn thiện Content/Hook/SEO, prompt ảnh/thumbnail/Veo theo DNA và chỉ dẫn huấn luyện mới; làm mới cache/UI cho tác vụ mới, đồng thời bổ sung lớp bảo vệ SQLite: phát hiện hỏng trước ghi, khóa một runtime, snapshot có checksum/xác minh và backup/restore đầy đủ dữ liệu nghiệp vụ.
 
@@ -25,3 +25,5 @@ Bản 0.1.40: viết kịch bản không còn kẹt ở QA — chương đạt t
 Bản 0.1.41: hồ sơ kênh đã lưu gì thì dùng đúng cái đó — lưu/duyệt DNA hay phân tích lại kênh lead không còn đè số phút, WPM, ngách, ngôn ngữ đã lưu bằng gợi ý của DNA. Hồ sơ từng bị đè: nhập lại số phút/WPM và bấm "Lưu hồ sơ" một lần.
 
 Bản 0.1.42: hết kẹt SEO "tiêu đề chưa theo công thức tiêu đề của DNA kênh" (chỉ công thức dạng khuôn mới chấm cứng, công thức mô tả bằng lời chỉ cảnh báo); chọn model chấm QA bất kỳ kèm danh sách dự phòng theo thứ tự trong Cấu hình; hết báo nhầm "9Router hết hạn mức" — lỗi khác hiện nguyên lỗi thật kèm tên model, có nút "Thử lại ngay".
+
+Bản 0.1.43: hết kẹt QA — tool giữ cách "sửa đúng câu bị chỉ ra" khi điểm còn tăng, giám khảo nhớ lỗi đã sửa; viết đơn dưới 75 có nút "Chấp nhận bản tốt nhất" (xong là có nút "Tạo voice & SRT"), hàng loạt/trend tự chấp nhận khi chương thấp nhất từ 60 và chạy tiếp voice/SRT/prompt ảnh.

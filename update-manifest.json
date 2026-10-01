@@ -1,9 +1,9 @@
 {
-  "version": "0.1.42",
-  "publishedAt": "2026-10-01T08:57:26.867Z",
-  "notes": "Bản 0.1.42 sửa ba lỗi khi viết kịch bản:\n\n1. **Hết kẹt \"Gói SEO chưa đạt … tiêu đề chưa theo công thức tiêu đề của DNA kênh\":** chỉ công thức dạng khuôn (có ô [ ] và từ cố định, cùng ngôn ngữ bài) mới được chấm cứng; công thức mô tả bằng lời, toàn ô trống hoặc khác ngôn ngữ chỉ hiện cảnh báo \"chỉ để tham khảo\". Có bước sửa riêng đưa đúng công thức cho AI viết thêm một tiêu đề khớp; tiêu đề bạn nhập vẫn đứng đầu, nội dung và QA không chạy lại.\n2. **Model chấm QA tự chọn + danh sách dự phòng:** chọn model chấm bất kỳ (không còn bắt buộc Claude); trong Cấu hình có ô \"Model chấm QA dự phòng (theo thứ tự, mỗi dòng một model)\". Model nào lỗi/hết hạn mức thì tự chuyển model kế tiếp, chỉ dừng khi tất cả đều lỗi. Chỉ cấm dùng đúng model viết để chấm; cùng họ thì có cảnh báo \"Chấm cùng họ\".\n3. **Hết báo nhầm \"9Router hết hạn mức\":** chỉ báo khi thật sự hết quota; lỗi khác (độ dài, giới hạn tốc độ, quyền tài khoản…) hiện nguyên lỗi thật kèm tên model. Gọi thành công là tự quên trạng thái hết hạn mức; nút \"↻ Thử lại ngay\" chạy lại không cần tắt app.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.42/KICHBAN-HTX-Setup-0.1.42-x64.exe",
-  "sha256": "0b1c6192ab2748dd60535bf021f89d1dc9735c6564ea994ff0dc611aa5838cba",
+  "version": "0.1.43",
+  "publishedAt": "2026-10-01T13:50:23.863Z",
+  "notes": "Bản 0.1.43 sửa tận gốc việc kịch bản kẹt ở QA dù lỗi giám khảo nêu rất cụ thể:\n\n1. **Sửa bài hội tụ:** tool tiếp tục \"sửa đúng câu bị chỉ ra\" chừng nào điểm còn tăng (đo thực tế +10 điểm/lần), chỉ chuyển sang viết lại khi cách đó không tiến; khi sửa, model thấy beat đã duyệt và đoạn nối chương trước/sau.\n2. **Giám khảo nhớ lỗi đã sửa:** chấm lại cả chương nhưng một tiêu chí chỉ bị hạ điểm khi lỗi mới nằm đúng đoạn vừa sửa — hết cảnh sửa xong lại bị bắt lỗi khác.\n3. **Chấp nhận bản tốt nhất:** viết đơn sửa hết lượt mà chương yếu nhất dưới 75 thì có nút \"Chấp nhận bản tốt nhất\" (cổng số từ, hook, SEO, ngôn ngữ, độ bám tiêu đề vẫn bắt buộc) và \"Chạy tiếp (sửa thêm lượt mới)\". Chấp nhận xong là có ngay nút \"Tạo voice & SRT\" ở trang viết đơn và trong Tác vụ.\n4. **Hàng loạt / trend tự đi tiếp:** chương thấp nhất từ 60 trở lên thì tự chấp nhận bản tốt nhất và chạy tiếp voice → SRT → prompt ảnh; dưới 60 chỉ dừng riêng bài đó.\n5. Bài được chấp nhận dưới 75 có cảnh báo \"QA chưa đạt — đã chấp nhận bản tốt nhất\" ở Tác vụ, thẻ kết quả và đầu file _SEO.txt.\n\nBài đang kẹt QA từ bản cũ: vào Tác vụ bấm \"Chạy lại đúng bước lỗi\" để sửa thêm lượt mới; nếu vẫn dưới 75 sẽ hiện nút \"Chấp nhận bản tốt nhất\".",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.43/KICHBAN-HTX-Setup-0.1.43-x64.exe",
+  "sha256": "a91ed80ab51246714bf95780ca447cc118a9971a66af159b541558d0bf57804a",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "oTeaNBTRTvcVJiGZCXKoNrnYnQKWdzSOgEvumctko3wxEAXrBJ2spMi/Blx55aDeIAVwV7cpoQseS6KFGOjaBw=="
+  "signature": "2Ynn9+D4yx1VBPpNzaVShS14TWxwFDV50HOcaEHbw2lvOmimmnXzlIqM0BB/l52dh1cfBxqfB/X/XDWFDmVMAQ=="
 }
