@@ -1,9 +1,9 @@
 {
-  "version": "0.1.41",
-  "publishedAt": "2026-09-30T14:24:33.189Z",
-  "notes": "Bản 0.1.41 sửa lỗi hồ sơ kênh tự quay về số phút/WPM của DNA:\n\n1. **Đã lưu gì thì dùng đúng cái đó:** bấm Lưu DNA, duyệt DNA hay phân tích lại kênh lead không còn đè số phút, số từ/phút (WPM), ngách và ngôn ngữ bạn đã lưu bằng số gợi ý của DNA. Gợi ý của DNA chỉ điền sẵn cho hồ sơ **mới**.\n2. **\"Huấn luyện và lưu\" ở bước 3** lưu đúng số phút/WPM đang nhập trên màn hình.\n3. **Ngách bạn chọn được giữ**; chỉ khi để \"AI tự nhận diện\" tool mới lấy ngách của kênh lead.\n4. Kết quả phân tích chỉ ghi vào đúng hồ sơ đã bấm phân tích; trong lúc phân tích, ô chọn hồ sơ bị khóa để tránh lẫn.\n\n**Lưu ý sau khi cập nhật:** hồ sơ nào đã bị đè trước đây (vd \"kênh 1\" đang 7 phút), hãy mở hồ sơ, nhập lại số phút/WPM mong muốn và bấm \"Lưu hồ sơ\" một lần.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.41/KICHBAN-HTX-Setup-0.1.41-x64.exe",
-  "sha256": "2d533a7b2374f8c1e6663f77fa1ac02a7efdd8e7ebaa270f2316730f0699e767",
+  "version": "0.1.42",
+  "publishedAt": "2026-10-01T08:57:26.867Z",
+  "notes": "Bản 0.1.42 sửa ba lỗi khi viết kịch bản:\n\n1. **Hết kẹt \"Gói SEO chưa đạt … tiêu đề chưa theo công thức tiêu đề của DNA kênh\":** chỉ công thức dạng khuôn (có ô [ ] và từ cố định, cùng ngôn ngữ bài) mới được chấm cứng; công thức mô tả bằng lời, toàn ô trống hoặc khác ngôn ngữ chỉ hiện cảnh báo \"chỉ để tham khảo\". Có bước sửa riêng đưa đúng công thức cho AI viết thêm một tiêu đề khớp; tiêu đề bạn nhập vẫn đứng đầu, nội dung và QA không chạy lại.\n2. **Model chấm QA tự chọn + danh sách dự phòng:** chọn model chấm bất kỳ (không còn bắt buộc Claude); trong Cấu hình có ô \"Model chấm QA dự phòng (theo thứ tự, mỗi dòng một model)\". Model nào lỗi/hết hạn mức thì tự chuyển model kế tiếp, chỉ dừng khi tất cả đều lỗi. Chỉ cấm dùng đúng model viết để chấm; cùng họ thì có cảnh báo \"Chấm cùng họ\".\n3. **Hết báo nhầm \"9Router hết hạn mức\":** chỉ báo khi thật sự hết quota; lỗi khác (độ dài, giới hạn tốc độ, quyền tài khoản…) hiện nguyên lỗi thật kèm tên model. Gọi thành công là tự quên trạng thái hết hạn mức; nút \"↻ Thử lại ngay\" chạy lại không cần tắt app.",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.42/KICHBAN-HTX-Setup-0.1.42-x64.exe",
+  "sha256": "0b1c6192ab2748dd60535bf021f89d1dc9735c6564ea994ff0dc611aa5838cba",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "zT2wdqbOaLKwz0jbSfmUqNydi63t5X+OMjdUeAnG+l0P6Hd/XpgjnqytH//s0C3Tx1qoOpzy7Ew3CVw3h5NdAw=="
+  "signature": "oTeaNBTRTvcVJiGZCXKoNrnYnQKWdzSOgEvumctko3wxEAXrBJ2spMi/Blx55aDeIAVwV7cpoQseS6KFGOjaBw=="
 }
