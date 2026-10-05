@@ -1,9 +1,9 @@
 {
-  "version": "0.1.46",
-  "publishedAt": "2026-10-05T04:44:29.026Z",
-  "notes": "Bản 0.1.46 — viết hàng loạt giữ đúng tiêu đề bạn gõ (D-32):\n\n1. Sửa lỗi viết hàng loạt tự đổi tiêu đề và viết sang chủ đề khác: trước đây tool âm thầm gắn một video nguồn cũ (lưu trong bản nháp trình duyệt) vào dòng bạn gõ và viết lại theo video đó. Giờ tiêu đề bạn gõ được giữ nguyên từng chữ (chỉ dịch nếu kênh viết ngôn ngữ khác), nội dung phải trả lời đúng tiêu đề đó, và tiêu đề SEO đầu tiên chính là tiêu đề đó.\n2. Video nguồn chỉ được gắn khi bạn vừa bấm \"Viết lại từ video/trend\", ghép đúng theo tiêu đề (không theo số thứ tự dòng) và tự xóa sau khi tạo lô. Ở chế độ hàng loạt có danh sách \"Video nguồn đang gắn\" với nút \"✕ Bỏ\" / \"Bỏ tất cả\".\n3. Máy chủ tự kiểm tra lại: dòng nào không có video nguồn hợp lệ thì luôn được coi là tiêu đề bạn gõ và khóa tiêu đề (kèm cảnh báo trong nhật ký lô).\n4. Video nguồn cũ còn kẹt trong trình duyệt của bạn tự bị bỏ qua sau khi cập nhật — không cần làm gì.\n5. \"Chạy lại\" và \"Chấp nhận bản tốt nhất\" cho bài viết lại từ video nguồn (trend, tự động hóa kênh) vẫn dùng tiếp bản đã viết, không viết lại từ đầu.",
-  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.46/KICHBAN-HTX-Setup-0.1.46-x64.exe",
-  "sha256": "d6036b9c7620fb21963706dbbf805e9c14af6f93fdaa9907fadd1ab04665b45b",
+  "version": "0.1.47",
+  "publishedAt": "2026-10-05T16:04:40.066Z",
+  "notes": "Bản 0.1.47 — sửa kẹt SEO với kênh tiếng Nhật/Trung/Hàn/Thái (D-33):\n\n1. Sửa lỗi bài bị kẹt ở bước SEO với thông báo \"tiêu đề chưa theo công thức tiêu đề của DNA kênh\" dù AI đã viết đúng công thức: trước đây bộ kiểm công thức tiêu đề tách chữ theo dấu cách nên không đọc được các tiếng viết liền (Nhật, Trung, Hàn, Thái). Giờ bộ kiểm hiểu đúng các tiếng này.\n2. Công thức tiêu đề mà tool không kiểm được cho đúng ngôn ngữ của kênh thì chỉ còn là cảnh báo, không chặn phát hành.\n3. Nếu đã sửa SEO hết lượt mà chỉ còn mỗi lỗi công thức tiêu đề, bài sẽ hoàn tất kèm cảnh báo thay vì kẹt lại — không bao giờ kẹt.\n\nBài đang kẹt ở bước SEO từ bản cũ: bấm \"Chạy tiếp\" (chỉ chạy lại bước SEO, giữ nguyên nội dung và QA).",
+  "installerUrl": "https://github.com/truongnguyen217011-ai/kichban-htx-releases/releases/download/v0.1.47/KICHBAN-HTX-Setup-0.1.47-x64.exe",
+  "sha256": "0d7edb27bf0de19449dff4a03a0712abe77df0ac35d5028d60814388854d8495",
   "minimumDatabaseSchema": 14,
   "maximumDatabaseSchema": 15,
   "minimumWorkflowSchema": 3,
@@ -14,5 +14,5 @@
     "/SP-",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "signature": "MCPFpBNuKLN0hC4gvoy8RrBPU6FBQr8N3em5wZiwsdE1YSjN7ZN5OG7fjE8VJh1Ee3VxHXxYkoGQvyTdyUhxCA=="
+  "signature": "5rs5cSI9wWJxf3MQRU0ItvbTlsIlmAIzezp/0db0OWtfv0gblnOXQA0T/TVsidWcqFus/3g+WHyDtm0X+KoMCQ=="
 }

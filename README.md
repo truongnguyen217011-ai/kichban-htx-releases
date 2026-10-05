@@ -2,7 +2,7 @@
 
 Kho công khai này chỉ chứa bộ cài Windows, mã kiểm tra SHA-256 và manifest cập nhật đã ký số. Mã nguồn của ứng dụng không được phát hành tại đây.
 
-Phiên bản mới nhất: **0.1.46**.
+Phiên bản mới nhất: **0.1.47**.
 
 Từ 0.1.26, ứng dụng có khay hệ thống Windows thật và tự kiểm tra cập nhật định kỳ khi đang chạy. Bản 0.1.27 hoàn thiện Content/Hook/SEO, prompt ảnh/thumbnail/Veo theo DNA và chỉ dẫn huấn luyện mới; làm mới cache/UI cho tác vụ mới, đồng thời bổ sung lớp bảo vệ SQLite: phát hiện hỏng trước ghi, khóa một runtime, snapshot có checksum/xác minh và backup/restore đầy đủ dữ liệu nghiệp vụ.
 
@@ -33,3 +33,5 @@ Bản 0.1.44: cập nhật tự chờ bài đang chạy xong; không mất bài 
 Bản 0.1.45: hết lặp hook/CTA giữa các bài (hook đổi cảm xúc, khuôn mở và câu kết xoay vòng theo kênh); sửa lỗi QA 0 điểm khi model chấm trả lời không dùng được, tool tự dò model chấm trên 9Router của từng máy; prompt ảnh có nhân vật phụ cố định và thời đại rõ ràng. Sau khi cài: chọn Giới tính nhân vật chính ở Hồ sơ kênh → bước 3 → Duyệt & khóa.
 
 Bản 0.1.46: viết hàng loạt giữ nguyên từng chữ tiêu đề bạn gõ (không còn tự đổi tiêu đề/viết theo video nguồn cũ); danh sách "Video nguồn đang gắn" có nút bỏ.
+
+Bản 0.1.47: hết kẹt bước SEO với kênh tiếng Nhật/Trung/Hàn/Thái (bộ kiểm công thức tiêu đề đọc được tiếng viết liền; công thức không hợp chủ đề chỉ còn cảnh báo, bài vẫn hoàn tất). Bài đang kẹt SEO: bấm "Chạy tiếp" hoặc "Chấp nhận bản tốt nhất".
